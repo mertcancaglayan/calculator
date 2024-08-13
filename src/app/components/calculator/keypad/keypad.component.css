@@ -1,0 +1,89 @@
+.keypad {
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  width: 100%;
+  gap: 10px;
+  overflow: hidden;
+  padding: 10px 0;
+  margin-top: 10px;
+  transition: 2s ease-in-out;
+  background: var(--keypadBackground);
+}
+
+.keypad-horizontal {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.keypad-horizontal > .keypad-row:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 30px;
+  background-color: var(--frameBtnBackground);
+}
+
+.keypad-horizontal > .keypad-row:first-child > .keypad-btn:last-child {
+  background-color: var(--verticalButtonLastBackground);
+}
+
+.keypad-horizontal > .keypad-row:first-child > .keypad-btn:last-child:hover {
+  background-color: var(--verticalButtonLastHoverBackground);
+}
+
+.keypad-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.keypad-numbers {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.keypad-numbers .keypad-row:last-child .keypad-btn:last-child {
+  font-size: large;
+  font-weight: 600;
+}
+
+.keypad-vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10px;
+  gap: 15px;
+  border-radius: 30px;
+  background-color: var(--frameBtnBackground);
+}
+
+.keypad-vertical .keypad-row:last-child .keypad-btn {
+  background-color: var(--verticalButtonLastBackground);
+}
+
+.keypad-vertical .keypad-row:last-child  .keypad-btn:hover {
+  background-color: var(--verticalButtonLastHoverBackground);
+}
+
+.keypad-btn {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: var(--buttonBorder);
+  color: var(--commonTextColor);
+  background-color: var(--buttonBackground);
+  border-radius: 50%;
+  font-size: 1.6em;
+  cursor: pointer;
+}
+
+.keypad-btn:hover {
+  background-color: var(--buttonHoverBackground);
+}

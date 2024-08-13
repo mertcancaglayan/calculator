@@ -1,0 +1,17 @@
+.history {
+  width: 20px;
+  aspect-ratio: 1/1;
+  font-size: larger;
+  cursor: pointer;
+  position: absolute;
+  right: 15px;
+  top: 35px;
+}
+
+.history:hover > svg > path {
+  fill: var(--commonTextColor);
+}
+
+.history:hover > svg > path {
+  fill: var(--primaryTextColor);
+}

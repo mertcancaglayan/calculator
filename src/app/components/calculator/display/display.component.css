@@ -1,0 +1,47 @@
+.equationContainer {
+  width: 95%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column-reverse;
+  color: var(--commonTextColor);
+}
+
+.pastEquations {
+  opacity: 0;
+  text-align: end;
+  margin: 0 10px 0 0;
+  word-wrap: break-word;
+  width: 95%;
+  overflow: hidden;
+  color: var(--commonTextColor);
+}
+
+.equation {
+  text-align: end;
+  margin: 0 10px 0 0;
+  font-size: larger;
+  font-weight: 500;
+  width: 95%;
+  word-wrap: break-word;
+  color: var(--commonTextColor);
+}
+
+.result {
+  font-weight: 600;
+  font-size: xx-large;
+  display: flex;
+  align-items: center;
+  width: 95%;
+  max-height: 100%;
+  overflow: hidden;
+  word-break: break-all;
+  justify-content: space-between;
+  color: var(--commonTextColor);
+}
+.result > * {
+  margin: 0 20px;
+}
+
+.resultValue {
+  text-align: end;
+}
