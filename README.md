@@ -1,27 +1,118 @@
-# Calculator
+# English
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
+# Angular Calculator Project
 
-## Development server
+This is an Angular calculator application that includes a fully functional keypad, a theme toggle (light/dark mode), and keyboard keydown event handling for user interaction.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
 
-## Code scaffolding
+- **Basic Arithmetic Operations**: Addition, Subtraction, Multiplication, Division.
+- **Keyboard Support**: Use your keyboard for entering numbers and operations.
+- **Light/Dark Theme Toggle**: Switch between light and dark themes with a simple toggle.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Demo
 
-## Build
+You can view a live demo of the application [here](https://calculator-brown-phi.vercel.app).
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Installation
 
-## Running unit tests
+To run this project locally, follow these steps:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. **Clone the repository**:
 
-## Running end-to-end tests
+   ```bash
+   git clone https://github.com/your-username/angular-calculator.git
+   cd angular-calculator
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+   ```
 
-## Further help
+2. **Install dependencies**:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+   ```bash
+   npm install
+
+   ```
+
+3. **Run the application**:
+   ```bash
+   ng serve
+   ```
+   The application will be served at http://localhost:4200/.
+
+# Usage
+
+## Calculator
+
+- **Click the buttons:** Use your mouse or touchpad to click the calculator buttons.
+- **Keyboard Input:** You can also use your keyboard to input numbers and operations.
+  - `+`: Addition
+  - `-`: Subtraction
+  - `*`: Multiplication
+  - `/`: Division
+  - `Enter` or `=`: Calculate the result
+  - `Backspace`: Clear the last input
+
+## Theme Toggle
+
+- **Toggle Switch:** Use the toggle switch to change the theme between light and dark modes.
+- **Automatic Theme Setting:** The toggle switch sets a `data-theme` attribute on the `<body>` element, which is used to apply the appropriate CSS styles.
+
+# Turkish
+
+# Angular Hesap Makinesi Projesi
+
+İşlevsel bir tuş takımı, tema geçişi (açık/karanlık mod) ve kullanıcı etkileşimi için klavye keydown eventleri içeren Angular hesap makinesi uygulaması.
+
+## Özellikler
+
+- **Temel Aritmetik İşlemler**: Toplama, Çıkarma, Çarpma, Bölme.
+- **Klavye Desteği**: Sayıları ve işlemleri girmek için klavyenizi kullanın.
+- **Açık/Karanlık Tema Geçişi**: Basit bir geçiş ile açık ve karanlık temalar arasında geçiş yapın.
+- **Duyarlı Tasarım**: Hem masaüstü hem de mobil cihazlar için optimize edilmiştir.
+
+## Demo
+
+Uygamanın canlı demosunu [buradan](https://calculator-brown-phi.vercel.app) görüntüleyebilirsiniz.
+
+## Kurulum
+
+Bu projeyi yerel olarak çalıştırmak için aşağıdaki adımları izleyin:
+
+1. **Depoyu klonlayın**:
+
+   ```bash
+   git clone https://github.com/your-username/angular-calculator.git
+   cd angular-calculator
+   ```
+
+2. **Bağımlılıkları yükleyin**:
+
+   ```bash
+   npm install
+
+   ```
+
+3. **Uygulamayı çalıştırın**:
+   ```bash
+   ng serve
+   ```
+   Uygulama http://localhost:4200/ adresinde sunulacaktır.
+
+# Kullanım
+
+## Hesap Makinesi
+
+- **Düğmelere Tıklama:** Hesap makinesi düğmelerine fare veya dokunmatik yüzeyle tıklayın.
+- **Klavye Butonlarına Tıklama:** Ayrıca klavyenizi kullanarak sayıları ve işlemleri girebilirsiniz.
+  - `+`: Toplama
+  - `-`: Çıkarma
+  - `*`: Çarpam
+  - `/`: Bölme
+  - `Enter` ya da `=`: Sonuç hesaplama
+  - `Backspace`: Silme
+
+## Theme Toggle
+
+- **Toggle Butonu:** Tema arasında geçiş yapmak için Toggle butonunu kullanın.
+- **Otomatik Tema Ayarı:** Toggle butonu, uygun CSS stillerini uygulamak için <body> öğesine data-theme niteliğini ayarlar.
