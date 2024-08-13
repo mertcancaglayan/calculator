@@ -75,6 +75,15 @@ To run this project locally, follow these steps:
 
 Uygamanın canlı demosunu [buradan](https://calculator-brown-phi.vercel.app) görüntüleyebilirsiniz.
 
+## Önizleme
+
+### Aydınlık Mod | Karanlık Mod
+
+![Hesap Makinesi Önizleme](src/assets/images/Preview.png)    ![Hesap Makinesi Önizleme](src/assets/images/preview2.png)
+
+
+
+
 ## Kurulum
 
 Bu projeyi yerel olarak çalıştırmak için aşağıdaki adımları izleyin:
